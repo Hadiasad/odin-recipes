@@ -1,1 +1,1 @@
-# odin-recipes
+This project marks a key step in my web development journey, focusing on mastering HTML fundamentals through The Odin Project's hands-on curriculum.
