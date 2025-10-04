@@ -7,7 +7,7 @@ This project marks a key step in my web development journey, focusing on masteri
 
 **Live Demo:** [View Project Here](https://github.com/Hadiasad/odin-recipes)
 
-![Screenshot of the Odin Recipes homepage](./images/homepage-screenshot.png)
+![Screenshot of the Odin Recipes homepage](./images/homepage-screenshot/homepage-screenshot.png)
 
 ## Features
 
@@ -45,4 +45,4 @@ The primary objective of this project was to apply theoretical HTML knowledge to
 
 ## Acknowledgements
 
-A huge thank you to The Odin Project for providing an incredible, free, and comprehensive curriculum that empowers aspiring developers through hands-on learning. @TheOdinProject
+A huge thank you to [The Odin Project](https://github.com/TheOdinProject) for providing an incredible, free, and comprehensive curriculum that empowers aspiring developers through hands-on learning.
