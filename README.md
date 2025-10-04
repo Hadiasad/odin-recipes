@@ -5,7 +5,7 @@ This project is a simple recipe website built to practice and demonstrate founda
 This project marks a key step in my web development journey, focusing on mastering HTML fundamentals by building a small, multi-page static site.
 
 
-**Live Demo:** [View Project Here](https://github.com/Hadiasad/odin-recipes)
+**Live Demo:** [View Project Here](https://hadiasad.github.io/odin-recipes/)
 
 ![Screenshot of the Odin Recipes homepage](./images/homepage-screenshot/homepage-screenshot.png)
 
