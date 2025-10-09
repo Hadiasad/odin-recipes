@@ -8,13 +8,8 @@ body {
   font-family: "Times New Roman", Garamond, Gerogia, serif, sans-serif;
 }
 
-h1,
-#voice,
-#how-to {
-  text-align: center;
-}
-
 h1 {
+  text-align: center;
   height: 100px;
   width: 800px;
   font-size: 80px;
@@ -24,15 +19,18 @@ h1 {
 }
 #voice {
   display: block;
+  text-align: center;
   height: 50px;
-  width: 410px;
+  width: auto;
   font-size: 36px;
   margin: auto;
 }
 
 #how-to {
+  text-align: center;
   font-size: 58px;
   margin: 150px auto 10px;
+  width: auto;
 }
 
 .list {
@@ -43,7 +41,7 @@ h1 {
   font-size: 29px;
   margin: 0 auto 50px;
   padding: 40px 350px 20px 30px;
-  border: 2px dotted #800000;
+  border: 3px dotted #800000;
 }
 
 .ghormeh-card-container,
