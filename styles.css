@@ -15,8 +15,9 @@ h1,
 }
 
 h1 {
-  max-width: 800px;
-  width: 90%;
+
+  height: 100px;
+  width: 800px;
   font-size: 80px;
   margin: 1em auto 35px;
   padding-bottom: 25px;
@@ -24,38 +25,35 @@ h1 {
 }
 #voice {
   display: block;
-  max-width: 410px;
-  width: 90%;
+
+  height: 50px;
+  width: 410px;
   font-size: 36px;
   margin: auto;
 }
 
 #how-to {
+
   font-size: 58px;
   margin: 150px auto 10px;
-  width: 90%;
+
 }
 
 .list {
-  max-width: 1050px;
-  width: 90%;
+  height: 820px;
+  width: 700px;
   border-radius: 30px;
   list-style-type: none;
-  margin: 0 auto 50px;
-  padding: 10px 40px 30px 40px;
-  border: 3px dotted #800000;
-  box-sizing: border-box;
-}
-
-li {
   font-size: 29px;
-  overflow: hidden;
+  margin: 0 auto 50px;
+  padding: 40px 350px 20px 30px;
+  border: 3px dotted #800000;
 }
 
 .ghormeh-card-container,
 .beef-card-container {
+  width: 1020px;
   border-bottom: 1px solid #800000;
-  padding-bottom: 122px;
 }
 
 a {
@@ -63,43 +61,38 @@ a {
   text-decoration: none;
 }
 
-.image-container {
-  width: 300px;
-  float: left;
-}
-
-.card-img {
-  border-radius: 10px;
-  display: block;
-}
-
 .card-text {
-  margin-left: 340px;
+  margin: -255px 0 30px 320px;
+  width: 700px;
 }
 
 .card-title {
   display: block;
   font-weight: bolder;
-  margin-bottom: 15px;
+  margin: -20px 0;
+}
+
+.card-img {
+  border-radius: 10px; 
+}
+
+.image-container {
+  width: 300px;
+  height: auto;
+  padding: 30px 20px 30px 0px;
 }
 
 .recipe-button {
-  background-color: #800000;
-  color: #f5f5dc;
+  background-color: #800000; 
+  color: #f5f5dc; 
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
   cursor: pointer;
   font-size: 18px;
   font-family: sans-serif;
-  display: block;
-  width: 140px;
-  margin-top: 55px;
-  float: right;
-  margin-right: 40px;
+  margin: 68px 0 0 550px;
   transition: background-color 0.2s;
 }
-
 .recipe-button:hover {
   background-color: #cc5500;
-}
