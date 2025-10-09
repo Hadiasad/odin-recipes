@@ -1,17 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Odin Recipes</title>
+        <title>How to Cook | Hadixel Recipes</title>
         <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="./styles.css">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <h2>How To Cook</h2>
-        <ul>
-            <li><a href="recipes/ghormeh-sabzi.html"><strong>Ghormeh Sabzi:</strong> An elegant and classic Persian herb stew</a></li>
-            <li><a href="recipes/beef-stroganoff.html"><strong>Beef Stroganoff:</strong> A hearty and savory Russian dish</a></li>
-            <li><a href="recipes/grilled-liver.html"><strong>Jigar (Grilled Liver):</strong> A simple and popular Persian kebab</a></li>
+
+        <h1>Hadixel Recipes</h1>
+        <a id="voice" href="https://www.icls.edu/blog/every-dish-tells-a-story" target="_blank">" Every Dish Tells a Story "</a>
+        <h2 id="how-to">How to Cook</h2>
+
+        <ul class="list">
+           <li>
+                <a href="./recipes/ghormeh-sabzi.html">
+                    <div class="ghormeh-card-container">
+                        <div class="image-container">
+                            <img class="card-img" src="./images/title-img/ghorme-sabzi.png" alt="image of ghorme sabzi" width="300"/>
+                        </div>
+                        <div class="card-text">
+                            <h3 class="card-title">Ghormeh Sabzi</h3>
+                            <p class="card-def"> An elegant and classic Persian herb stew</p>
+                            <button class="recipe-button">View Recipe</button>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="./recipes/beef-stroganoff.html">
+                    <div class="beef-card-container">
+                        <div class="image-container">
+                            <img class="card-img" src="./images/title-img/beef-strogonoff.png" alt="image of beef stroganoff" width="300"/>
+                        </div>
+                        <div class="card-text">
+                            <h3 class="card-title">Beef Stroganoff</h3>
+                            <p class="card-def"> A hearty and savory Russian dish</p>
+                            <button class="recipe-button">View Recipe</button>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="./recipes/grilled-liver.html">
+                    <div class="jigar-card-container">
+                        <div class="image-container">
+                            <img class="card-img" src="./images/title-img/jigar.png" alt="image of jigar" width="300"/>
+                        </div>
+                        <div class="card-text">
+                            <h3 class="card-title">Jigar (Grilled Liver)</h3>
+                            <p class="card-def"> A simple and popular Persian kebab</p>
+                            <button class="recipe-button">View Recipe</button>
+                        </div>
+                    </div>
+                </a>
+            </li>
         </ul>
     </body>
 </html>
